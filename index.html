@@ -78,6 +78,18 @@
       text-decoration: none;
     }
     .source-note a:hover { text-decoration: underline; }
+    .source-note p {
+      margin: 0 0 14px;
+    }
+    .source-embeds {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .source-embeds .twitter-tweet {
+      margin: 0 !important;
+      max-width: 100% !important;
+    }
     main { padding: 42px 0 72px; }
     article {
       max-width: 820px;
@@ -285,7 +297,17 @@
       <p class="eyebrow">IPS出版コラム / Meta広告運用メモ</p>
       <h1>【IPS社内用】CPAだけ見ていると危ない。CPM・CPMr・CVRで見る「伸びる広告」の見つけ方</h1>
       <p class="lead">Meta広告を、短期CPAだけでなく「どれだけ新しい人に届いているか」まで含めて判断するための、今日から使える実務フローです。</p>
-      <p class="source-note">この記事は、CPMr（リーチ単価）の考え方についての以下のポストを元に、内容を噛み砕いて実務で使いやすい形に再構成したものです。より正確な背景や元の文脈が気になる方は、参照元のポストにも目を通してみてください。<br><a href="https://x.com/roberto_values/status/2052221453639238113?s=46">https://x.com/roberto_values/status/2052221453639238113?s=46</a><br><a href="https://x.com/lapper_s_high/status/2052271416184340915?s=46">https://x.com/lapper_s_high/status/2052271416184340915?s=46</a></p>
+      <div class="source-note">
+        <p>この記事は、CPMr（リーチ単価）の考え方についての以下のポストを元に、内容を噛み砕いて実務で使いやすい形に再構成したものです。より正確な背景や元の文脈が気になる方は、参照元のポストにも目を通してみてください。</p>
+        <div class="source-embeds">
+          <blockquote class="twitter-tweet" data-dnt="true">
+            <a href="https://x.com/roberto_values/status/2052221453639238113?s=46">参照元ポスト：CPMr（リーチ単価）の考え方 1</a>
+          </blockquote>
+          <blockquote class="twitter-tweet" data-dnt="true">
+            <a href="https://x.com/lapper_s_high/status/2052271416184340915?s=46">参照元ポスト：CPMr（リーチ単価）の考え方 2</a>
+          </blockquote>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -521,5 +543,6 @@ Frequencyも上がっている
       <p class="footer-note">この記事は、Meta広告の運用現場でCPM・CPMr・CVRを使って広告の役割を分類するための実務メモです。</p>
     </article>
   </main>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
